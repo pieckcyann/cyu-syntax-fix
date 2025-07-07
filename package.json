@@ -1,5 +1,5 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "cyu-syntax-fix",
 	"version": "1.0.0",
 	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
 	"main": "main.js",
@@ -20,5 +20,10 @@
 		"obsidian": "latest",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
+	},
+	"dependencies": {
+		"@codemirror/highlight": "^0.19.8",
+		"@codemirror/lang-markdown": "^6.3.2",
+		"@lezer/markdown": "^1.4.3"
 	}
 }

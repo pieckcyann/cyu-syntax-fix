@@ -6,3 +6,14 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/* 自定义样式，确保被替换的文本能够显示为 inline widget */
+.cm-line .custom-inline {
+    background-color: #f0f8ff;
+    border: 1px solid #add8e6;
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+}
